@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.home-section {
+    height: 100vh;
+}
+
+.hr-line {
+    background-color: #4538C4;
+    padding: 3px;
+}
+
+.nav-header {
+    background-color: #ffffff;
+    border: 1px solid gray;
+}
+
+.navbar-brand img {
+    width: 50%;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo-title {
+    position: absolute;
+    padding-left: 67px;
+    padding-top: 11px;
+    cursor: pointer;
+}
+
+.logo-title h4 a {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: #ec743c;
+}
+
+.navbar .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-item::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #FFB707;
+    transition: .4s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-item .nav-link:hover {
+    color: #7734F9;
+}
+
+.nav-item .nav-link {
+    color: #000;
+    font-size: 1.1rem;
+    padding: 20px 5px;
+    font-weight: 500;
+}
+
+form .search {
+    width: 90px;
+}
+
+form .search:focus {
+    width: 207px;
+}
+
+.navbar-collapse form .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-collapse form .search:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+/* banner section */
+
+.banner-sect {
+    background-image: linear-gradient(#16222A, #3A6073);
+    height: 700px;
+}
+
+.banner-text {
+    padding-top: 300px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-text h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* study section */
+
+.study-sect {
+    background-color: #273044;
+    color: white;
+}
+
+.study-class {
+    padding: 130px 0;
+}
+
+.study-title {
+    padding-bottom: 90px;
+}
+
+.study-title h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.study-text p {
+    font-size: 17px;
+    color: lightgray;
+}
+
+
+/* why choose section */
+
+.why-choose {
+    padding: 100px 0px;
+}
+
+.why-choose-img {
+    width: 100%;
+}
+
+.why-choose-para {
+    font-family: 'SolaimanLipi', sans-serif;
+}
+
+.why-choose-para h1 {
+    font-weight: bold;
+    font-size: 2.8rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.why-choose-paraOne p {
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:992px) {
+    .why-choose {
+        padding: 70px 0;
+    }
+    .why-choose-img {
+        width: 60%;
+        margin: 0 90px;
+    }
+}
+
+
+/* blog section */
+
+/* .single-page {
+    background-color: #131417;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.article-viewer_content {
+    padding: 100px;
+}
+
+.content .content-title {
+    text-align: center;
+}
+
+.fa-bring-forward {
+    color: #fff;
+} */
